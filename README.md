@@ -12,6 +12,10 @@ Utilização
 
 	make
 
+#### Clean:
+
+	make clean
+
 #### Install:
 
 	sudo insmod primo.ko
