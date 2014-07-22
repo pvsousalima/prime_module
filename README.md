@@ -12,11 +12,20 @@ Utilizacao
 
 
 Build:
+
 	make
 
 Install:
+
 	sudo insmod primo.ko
 
 Remove:
+
 	sudo rmmod primo
 
+
+Requirements
+--------------
+
+- GCC (GNU C Compiler)
+- Ubuntu/Linux
