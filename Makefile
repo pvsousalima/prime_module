@@ -18,3 +18,6 @@ PWD   := $(shell pwd)
 # source and compile only the modules in the PWD (local) directory.
 default:
 	$(MAKE) -C $(KDIR) M=$(PWD) modules
+
+clean:
+	rm -r primo.mod.o modules.order primo.ko primo.mod.c primo.o Module.symvers

@@ -33,6 +33,16 @@ Para verificar logs de impressão
 	tail -f /var/log/kern.log
 
 
+Aplicação usuário para acesso ao módulo
+---------------------------------------
+
+#### Build:
+
+	gcc user.c -o user
+
+#### Run:
+
+	sudo ./user
 
 Casos de Teste
 --------------
@@ -46,4 +56,3 @@ Casos de Teste
 	Description:	Ubuntu 14.04.1 LTS
 	Release:	14.04
 	Codename:	trusty
-
