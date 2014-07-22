@@ -1,31 +1,49 @@
-Prime Modulo
+Prime Module
 ============
 
 
-Um modulo de Kernel para calculo de numeros primos
+Um modulo de Kernel para cálculo de números primos
 --------------------------------------------------
 
-
-
-Utilizacao
+Utilização
 ----------
 
-
-Build:
+#### Build:
 
 	make
 
-Install:
+#### Install:
 
 	sudo insmod primo.ko
 
-Remove:
+#### Remove:
 
 	sudo rmmod primo
 
 
-Requirements
+Para verificar logs de impressão
+--------------------------------
+
+#### Opção 1:
+
+	dmesg
+
+#### Opção 2 (dinâmica):
+
+	tail -f /var/log/kern.log
+
+
+
+Casos de Teste
 --------------
+- Kernel version 3.13.0-24-generic
 
 - GCC (GNU C Compiler)
-- Ubuntu/Linux
+
+- Linux Ubuntu:
+
+	Distributor ID:	Ubuntu
+	Description:	Ubuntu 14.04.1 LTS
+	Release:	14.04
+	Codename:	trusty
+
