@@ -20,4 +20,4 @@ default:
 	$(MAKE) -C $(KDIR) M=$(PWD) modules
 
 clean:
-	rm -r primo.mod.o modules.order primo.ko primo.mod.c primo.o Module.symvers .primo.ko.cmd .primo.mod.o.cmd .primo.o.cmd .tmp_versions/primo.mod
+	rm -r primo.mod.o modules.order primo.ko primo.mod.c primo.o Module.symvers
